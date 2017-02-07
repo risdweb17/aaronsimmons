@@ -1,0 +1,99 @@
+* {
+	font-family: Tiempo;
+}
+ body {
+ 	margin: 0;
+  padding:2em;
+  background-image: url(../img/men.JPG);
+/*  background-size: 200%;*/
+  background-repeat: no-repeat;
+ }
+p {
+ 	font-size: 1.25em;
+ 	max-width: 700px;
+ }
+
+/* HEADER CONTENT */
+
+.header {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 30px;
+  min-width: 400px;
+
+/*  background-image: url("../img/lichen2.jpg");*/
+/*  background-color: rgb(245,245,245);*/
+}
+
+.menu {
+  color: black;
+  width: 2em
+  height: 2em;
+  padding:20px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+
+/*  background-color: lightyellow;*/
+ }
+
+/* BODY CONTENT */
+
+.parent {
+  display: flex;
+  height: 480px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+/*  background-color:lightgreen;*/
+}
+.item {
+  color: white;
+  font-style: italic;
+  font-size: 2em;
+  width: 400px
+  height: 450px;
+  padding: .5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  min-width: 400px;
+/*  background-color: lightblue;*/
+ }
+
+
+/* LINK STYLING */
+
+/* unvisited link */
+a:link {
+    color: rgb(250,250,250);
+    font-size: 1.5em;
+    text-decoration: none;
+    word-spacing: 1em;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(250,250,250);
+    font-size: 1.5em;
+    text-decoration: none;
+    word-spacing: 1em;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightpink;
+    font-size: 1.5em;
+    text-decoration: none;
+    word-spacing: 1em;
+}
+
+/* selected link */
+a:active {
+    color: rgb(250,250,250);
+    font-size: 1.5em;
+    text-decoration: none;
+    word-spacing: 1em;
+}

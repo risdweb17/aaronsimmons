@@ -1,0 +1,31 @@
+h1,h2,h3,h4 {color:Grey;}
+* {font-family:"Helvetica";}
+/*body {
+	background-color: rgb(200,240,240);
+}*/
+body {	color:DarkGrey;}
+
+.content {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    max-width: 660px;
+    min-width: 400px;
+    padding: 10px;
+    position: relative;
+
+}
+img {margin-top: 44px;}
+
+h1 {font-size: 32px;}
+
+/*@media only screen and (min-width: 768px) {
+    .mountains {
+        display: none; }
+    }*/
+
+@media only screen and (max-width: 768px) {
+	.mountains {
+		display:none;
+	}
+}

@@ -1,0 +1,35 @@
+* {
+	font-family: Tiempo;
+  font-style: italic;
+}
+ body {
+ 	margin: 0;
+ }
+p {
+ 	font-size: 3em;
+ 	max-width: 500px;
+  font-style: italic;
+ }
+
+/* HEADER CONTENT */
+
+.parent {
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+/*  background-image: url("../img/lichen2.jpg");*/
+/*  background-color: rgb(245,245,245);*/
+}
+
+.item {
+  color: black;
+  height: 3em;
+  padding:50px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+  align-self: center;
+/*  background-color: lightyellow;
+*/ }

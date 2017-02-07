@@ -1,0 +1,39 @@
+/* GENERAL */
+
+* {
+	font-family: Tiempo;
+}
+ body {
+ 	margin: 0;
+  background-image: url(../img/flatrock.JPG);
+  background-size: 200%;
+  background-repeat: no-repeat;
+ }
+p {
+ 	font-size: 2.5em;
+ 	max-width: 500px;
+  font-style: italic;
+  color:white;
+ }
+
+/* BODY CONTENT */
+
+.parent {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 1em;
+/*  background-color: rgb(245,245,245);*/
+}
+
+.item {
+  max-height: 450px;
+  width: 500px;
+  padding:.5em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-self: center;
+/*  background-color: lightyellow;*/
+ }
