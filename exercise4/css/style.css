@@ -1,0 +1,16 @@
+* {font-family: "Helvetica";}
+* {line-height: 1.25em;}
+* {margin:auto;
+	width: 50em;
+	background-color: #fffcd7;}
+h1 {color: #ffbf4d;
+	margin-top: 2em;}
+img {margin-bottom: 2em 2em 2em 2em;}
+h3 {color: #ffbf4d;
+	margin-top: 1em;
+	margin-bottom: 1em;}
+body {margin-bottom: 5em;}
+li {color: Grey;}
+body{color: DarkGrey;}
+p {margin-top: .5em;
+margin-bottom: .5em;}
