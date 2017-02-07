@@ -1,0 +1,161 @@
+.all {
+	display: flex;
+	justify-content: left;
+	align-content: space-between;
+	width:100%;
+	flex-wrap:wrap;
+	margin:0;
+	font-family: 'averta_stdlight';
+}
+
+/* ----- MENU ----- */
+
+.topmenu {
+	position: fixed;
+ 	top: 0;
+ 	z-index: 88;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	width:100%;
+	height: 135px;
+	flex-wrap:wrap;
+	flex-direction: left;
+	margin:0;
+	opacity: .8;
+	background-color: white;
+}
+
+.hovermenu,.hovermenu2,.hovermenu3,.hovermenu4,.hovermenu5,.hovermenu6 {
+	float:left;
+	position: fixed;
+	top:135px;
+	width:100%;
+	background-color: white;
+	opacity: .8;
+	height: 40px;
+	text-align: center;
+	font-size: 2em;
+	z-index: 99;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.myface,.myface2,.myface3,.myface4,.myface5,.myface6 {
+	max-height:100px;
+	max-width: 100px;
+	padding:15px;
+}
+
+/* ---- CONTENT ----- */
+
+.slice,.slice2,.slice3,.slice4,.slice5,.slice6 {
+	position: relative;
+	top: 175px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	max-height: 100%;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	flex-wrap:wrap;
+	flex-direction: left;
+	padding:5px;
+	box-sizing: border-box;	
+	z-index: 1;
+}
+
+
+.nice {
+	max-width: 1000px;
+	max-height: 1000px;
+	padding: 25px;
+}
+
+.menuphoto{
+	max-width: 1000px;
+	max-height: 1000px;
+
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	width: 600px;
+	align-self: center;
+}
+
+.biotext {
+	font-size: 1em;
+	width: 500px;
+	padding: 25px;
+
+}
+
+.aboutphoto {
+	max-width: 1000px;
+}
+
+@media only screen and (max-width: 768px) {
+    .topmenu {
+        height: 100px;
+        width: 100%;
+        min-width: 300px;
+    }
+
+    .slice,.slice2,.slice3,.slice4,.slice5,.slice6 {
+    	top:120px;
+    	width: 100%;
+    	height: 100%;
+    	flex-direction: column;
+    	min-width: 325px;
+    }
+    .myface,.myface2,.myface3,.myface4,.myface5,.myface6 {
+    	width:50px;
+    	height:50px;
+    }
+    .menuphoto,.nice{
+    	max-width:100%;
+    	max-height:100%;
+    	padding: 5px;
+    }
+    .hovermenu,.hovermenu2,.hovermenu3,.hovermenu4,.hovermenu5,.hovermenu6 {
+    	top:160px;
+    	font-size: 1em;
+    }
+    .videobox {
+    	top:100px;
+    }
+    p,.biotext {
+    	font-size: 1.5em;
+    	min-width: 325px;
+    }
+}
+
+/* ----  FOOTER  --- */
+
+/*.homegallery {
+	position: relative;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	width: 100%;
+}
+
+.image {
+	max-width: 100px;
+	max-height: 100px;
+	padding: 15px;
+}*/
+
+/*#map {
+        height: 800px;
+        width: 800px;
+        position: relative;
+        left:20px;
+        right:20px;
+       }*/
