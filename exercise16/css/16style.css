@@ -1,0 +1,12 @@
+body {
+	font-family: helvetica;
+	font-size:2em;
+}
+
+#map {
+        height: 1200px;
+        width: 60%;
+        position: relative;
+        left:20%;
+        right:20%;
+       }
