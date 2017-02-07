@@ -1,0 +1,169 @@
+body {
+	margin:0;
+	background-color:white;
+}
+
+.parent {
+	display:flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 800px;
+	padding:.1em;
+	font-size:10em;
+	flex-wrap: wrap;
+	letter-spacing: 25px;
+	position:relative;
+	top:10px;
+
+} /* Click Show Letters */
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+.letter:hover {
+	animation-name: spin;
+	color: lightblue;
+    animation-duration: .1s;
+    animation-iteration-count: 1;
+    transform-origin: center center;
+	text-decoration: none;
+    word-spacing: .5em;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+}
+
+
+/* HEADER CONTENT 
+
+.header {
+  display: flex;
+  height: 120px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 30px;
+  min-width: 400px;
+  background-color:grey;
+  font-family: helvetica;
+
+
+
+  background-image: url("../img/lichen2.jpg");
+  background-color: rgb(245,245,245);
+}
+
+.menu {
+  color: black;
+  width: 2em
+  height: 2em;
+  padding:20px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1em;
+/*  background-color: lightyellow;
+ }
+
+/* LINK STYLING 
+
+/* unvisited link 
+a:link {
+    color: rgb(0,0,0);
+    font-size: 1.5em;
+    text-decoration: none;
+    word-spacing: 1em;
+}
+
+/* visited link 
+a:visited {
+    color: rgb(0,0,0);
+    font-size: 1.5em;
+    text-decoration: none;
+    word-spacing: 1em;
+}
+
+/* mouse over link 
+a:hover {
+    color: lightpink;
+    font-size: 1.5em;
+    text-decoration: none;
+    word-spacing: 1em;
+}
+
+/* selected link 
+a:active {
+    color: rgb(0,0,0);
+    font-size: 1.5em;
+    text-decoration: none;
+    word-spacing: 1em;
+}*/
+
+/* ANIMATION 
+
+	@keyframes y {
+	    0% {color: yellow;}
+	    50% {color: blue;}
+	    100% {color: yellow;}
+	}
+
+/*	.yellow {
+	    width: 100px;
+	    height: 100px;
+	    animation-name: y;
+	    animation-duration: 4s;
+	    animation-iteration-count: infinite;
+	}
+
+	@keyframes b {
+	    0% {color: blue;}
+	    50% {color: red;}
+	    100% {color: blue;}
+	}
+
+	.blue {
+	    width: 100px;
+	    height: 100px;
+	    animation-name: b;
+	    animation-duration: 4s;
+	    animation-iteration-count: infinite;
+	    animation-delay: 0.3s;
+	}
+
+	@keyframes r {
+	    0% {color: red;}
+	    50% {color: yellow;}
+	    100% {color: red;}
+	}
+
+	.red {
+	    width: 100px;
+	    height: 100px;
+	    animation-name: r;
+	    animation-duration: 4s;
+	    animation-iteration-count: infinite;
+	    animation-delay: 0.6s;
+	}
+
+	@keyframes sour {
+	    0% {color: black;}
+	    50% {color: white;}
+	    100% {color: black;}
+	}
+
+
+	@keyframes slice {
+	    0% {color: black;}
+	    50% {color: white;}
+	    100% {color: black;}
+	}
+
+*/
+
+/*
+.lettera,.letterb,.letterc,.letterd,.lettere,.letterf,.letterg,.letterh,.letteri,
+.letterj,.letterk,.letterl,.letterm,.lettern,.lettero,.letterp,.letterq,.letterr,.letters
+,.lettert,.letteru,.letterv,.letterw,.letterx,.lettery,.letterz:hover {
+
+
+}
+*/
