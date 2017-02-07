@@ -1,0 +1,36 @@
+body {
+	margin:0;
+}
+
+.pie {
+	position: relative;
+	top:10px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	width: 900px;
+	max-height:100%;
+	margin:0;
+	flex-wrap: wrap;
+	flex-direction: left;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.slice {
+	max-width: 150px;
+	max-height: 150px;
+	padding:8px;
+	align-self: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .slice {
+        max-width: 100px;
+		max-height: 100px;
+	}
+	.pie {
+		max-width: 600px;
+	}
+}
+
