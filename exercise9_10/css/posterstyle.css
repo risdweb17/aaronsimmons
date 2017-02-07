@@ -1,0 +1,159 @@
+body {
+	margin:0;
+	font-weight: bold;
+}
+
+.orange {
+	font-family: helvetica;
+	display: flex;
+	justify-content: space-between;
+	width:650px;
+/*	background-color: yellow;*/
+	line-height: 3px;
+	font-size: 14px;
+	padding: 4px;
+}
+
+.smiths {
+	font-family: Helvetica;
+	font-size:4em;
+	position:;
+	color:black;
+	position: absolute;
+	top:170px;
+	left:16px;
+	z-index: 40;
+}
+
+.parent {
+	background-color: beige;
+	width: 670px;
+	height: 710px;
+	padding:1em;
+	float:left;
+} /* Click Show Letters*/
+
+	.yellow {
+		font-family: Helvetica;
+		font-size:40em;
+		color:yellow;
+		opacity: 0.5;
+
+		position: absolute;
+		top:130px;
+		left:-28px;
+		z-index: 10;
+
+	}
+
+	.blue {
+		font-family: Helvetica;
+		font-size:40em;
+		color:blue;
+		opacity: 0.5;
+
+		position: absolute;
+		top:130px;
+		left: 78px;
+		z-index: 20;
+	}
+
+	.red {
+		font-family: Helvetica;
+		font-size:40em;
+		color:red;
+		opacity: 0.5;
+
+		position: absolute;
+		top:130px;
+		left:194px;
+		z-index: 30;
+	}
+
+.original {
+	font-family: helvetica;
+	font-size: 16px;
+
+	position: relative;
+	top: 800px;
+	margin-bottom: 100px;
+	float:left;
+}
+
+@keyframes y {
+    0% {color: yellow;}
+    50% {color: blue;}
+    100% {color: yellow;}
+}
+
+/* The element to apply the animation to */
+.yellow {
+    width: 100px;
+    height: 100px;
+    animation-name: y;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes b {
+    0% {color: blue;}
+    50% {color: red;}
+    100% {color: blue;}
+}
+
+/* The element to apply the animation to */
+.blue {
+    width: 100px;
+    height: 100px;
+    animation-name: b;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+}
+
+@keyframes r {
+    0% {color: red;}
+    50% {color: yellow;}
+    100% {color: red;}
+}
+
+/* The element to apply the animation to */
+.red {
+    width: 100px;
+    height: 100px;
+    animation-name: r;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+
+@keyframes sour {
+    0% {color: black;}
+    50% {color: white;}
+    100% {color: black;}
+}
+
+/* The element to apply the animation to */
+.smiths {
+    width: 300px;
+    height: 100px;
+    animation-name: sour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+
+@keyframes slice {
+    0% {color: black;}
+    50% {color: white;}
+    100% {color: black;}
+}
+
+/* The element to apply the animation to */
+.slice {
+    height: 200px;
+    animation-name: slice;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.2s;
+}
