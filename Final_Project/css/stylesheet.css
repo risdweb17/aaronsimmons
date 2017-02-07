@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'averta_stdlight';
+    src: url('avertastd-light-webfont.eot');
+    src: url('avertastd-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('avertastd-light-webfont.woff2') format('woff2'),
+         url('avertastd-light-webfont.woff') format('woff'),
+         url('avertastd-light-webfont.ttf') format('truetype'),
+         url('avertastd-light-webfont.svg#averta_stdlight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'averta_stdlight_italic';
+    src: url('avertastd-lightitalic-webfont.eot');
+    src: url('avertastd-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('avertastd-lightitalic-webfont.woff2') format('woff2'),
+         url('avertastd-lightitalic-webfont.woff') format('woff'),
+         url('avertastd-lightitalic-webfont.ttf') format('truetype'),
+         url('avertastd-lightitalic-webfont.svg#averta_stdlight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+
+}
